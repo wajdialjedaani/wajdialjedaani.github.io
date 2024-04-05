@@ -769,5 +769,40 @@
       </div>
     </div>
     <script src="js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+    <script>
+        // Wait for the DOM to be fully loaded
+        document.addEventListener("DOMContentLoaded", function() {
+          // Get all filter buttons
+          const filterButtons = document.querySelectorAll(".project-filters button");
+      
+          // Add click event listener to each filter button
+          filterButtons.forEach(function(button) {
+            button.addEventListener("click", function() {
+              // Remove 'active' class from all buttons
+              filterButtons.forEach(function(btn) {
+                btn.classList.remove("active");
+              });
+      
+              // Add 'active' class to the clicked button
+              button.classList.add("active");
+      
+              // Get the filter value from the data-filter attribute
+              const filterValue = button.getAttribute("data-filter");
+      
+              // Get all project items
+              const projectItems = document.querySelectorAll(".projects-container .isotope-item");
+      
+              // Show or hide project items based on the filter value
+              projectItems.forEach(function(item) {
+                if (filterValue === "*" || item.classList.contains(filterValue.slice(1))) {
+                  item.style.display = "block"; // Show item
+                } else {
+                  item.style.display = "none"; // Hide item
+                }
+              });
+            });
+          });
+        });
+      </script>
   </body>
 </html>
