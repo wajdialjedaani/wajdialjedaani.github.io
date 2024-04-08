@@ -745,6 +745,20 @@
       }
     </script>
     <script src="en/js/wowchemy.min.c84202fca2a6efbbecbaf0e8358c1d51.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('.fa-search').addEventListener('click', function() {
+        document.body.classList.add('searching');
+    });
+
+    document.querySelectorAll('.text-muted').forEach(function(element) {
+        element.addEventListener('click', function() {
+            document.body.classList.remove('searching');
+        });
+    });
+});
+
+    </script>
     <div id="modal" class="modal fade" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
