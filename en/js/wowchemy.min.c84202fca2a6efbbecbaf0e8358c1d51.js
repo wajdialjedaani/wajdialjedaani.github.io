@@ -823,7 +823,7 @@ See: https://github.com/francoischalifour/medium-zoom`)
             results: "results found"
         }
           , t = {
-            indexURI: "/PersonalWebsite/index.json",
+            indexURI: "index.json",
             minLength: 1,
             threshold: .3
         }
