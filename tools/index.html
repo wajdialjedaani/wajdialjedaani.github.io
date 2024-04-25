@@ -155,10 +155,19 @@
     </div>
 
     <div class="page-body">
-        <div class="universal-wrapper pt-3">
-          <h1>Tools</h1>
+      <div class="universal-wrapper pt-3">
+        <h1 class="text-center">Tools</h1>
+        <div class="d-flex justify-content-center">
+          <div class="btn-group flex-wrap">
+            <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
+            <a href="#" data-filter=".js-id-ai" class="btn btn-primary btn-lg">AI</a>
+            <a href="#" data-filter=".js-id-access" class="btn btn-primary btn-lg">Accessibility</a>
+            <a href="#" data-filter=".js-id-test-smells" class="btn btn-primary btn-lg">Testing</a>
+          </div>
         </div>
-        <div class="universal-wrapper">
+      </div>
+      <!-- Added margin-top to the universal-wrapper for spacing -->
+      <div class="universal-wrapper" style="margin-top: 30px;">
           <div class="row">
             <div class="col-lg-6">
               <div class="card experience tools" style="height: 400px; display: flex; flex-direction: column;"> <!-- Flex layout for the card -->
