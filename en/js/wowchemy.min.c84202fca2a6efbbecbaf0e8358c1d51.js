@@ -686,6 +686,7 @@ See: https://github.com/francoischalifour/medium-zoom`)
             t.forEach(function(e, t) {
                 console.debug(`Loading Isotope instance ${t}`);
                 let i, n = e.closest("section"), s = "";
+                if(!n) n= e.closest(".section-iso")
                 n.querySelector(".isotope").classList.contains("js-layout-row") ? s = "fitRows" : s = "masonry";
                 let r = n.querySelector(".default-project-filter")
                   , o = "*";

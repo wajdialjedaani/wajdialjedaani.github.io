@@ -169,7 +169,7 @@
       <!-- Added margin-top to the universal-wrapper for spacing -->
       <div class="universal-wrapper" style="margin-top: 30px;">
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 js-id-ai">
               <div class="card experience tools" style="height: 400px; display: flex; flex-direction: column;"> <!-- Flex layout for the card -->
                 <div class="image-container" style="height: 200px; overflow: hidden;"> <!-- Fixed height for the image container -->
                   <img src="example1/example1.jpg" alt="Tool Image" style="width: 100%; height: 100%; object-fit: cover;">
@@ -188,7 +188,7 @@
               </div>
             </div>
       
-            <div class="col-lg-6">
+            <div class="col-lg-6 js-id-test-smells">
               <div class="card experience tools" style="height: 400px; display: flex; flex-direction: column;"> <!-- Flex layout for the card -->
                 <div class="image-container" style="height: 200px; overflow: hidden;"> <!-- Fixed height for the image container -->
                   <img src="example2.jpg" alt="Tool Image" style="width: 100%; height: 100%; object-fit: cover;">
@@ -207,7 +207,7 @@
               </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 js-id-access">
               <div class="card experience tools" style="height: 400px; display: flex; flex-direction: column;"> <!-- Flex layout for the card -->
                 <div class="image-container" style="height: 200px; overflow: hidden;"> <!-- Fixed height for the image container -->
                   <img src="example3.jpg" alt="Tool Image" style="width: 100%; height: 100%; object-fit: cover;">
@@ -227,7 +227,7 @@
             </div>
 
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 js-id-test-smells">
               <div class="card experience tools" style="height: 400px; display: flex; flex-direction: column;"> <!-- Flex layout for the card -->
                 <div class="image-container" style="height: 200px; overflow: hidden;"> <!-- Fixed height for the image container -->
                   <img src="example4.jpg" alt="Tool Image" style="width: 100%; height: 100%; object-fit: cover;">
@@ -318,5 +318,26 @@
       </div>
     </div>
     <script src="../js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        var $grid = $('.row').isotope({
+          itemSelector: '.col-lg-6',
+          layoutMode: 'fitRows'
+        });
+    
+        $('.btn-group').on( 'click', 'a', function(e) {
+          e.preventDefault();
+          var filterValue = $(this).attr('data-filter');
+          $grid.isotope({ filter: filterValue });
+          
+          $('.btn-group').find('.active').removeClass('active');
+          $(this).addClass('active');
+        });
+      });
+    </script>
   </body>
+
 </html>
