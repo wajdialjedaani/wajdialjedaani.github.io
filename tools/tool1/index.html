@@ -36,8 +36,42 @@
     <meta property="og:updated_time" content="2023-09-01T00:00:00&#43;00:00" />
     <link rel="alternate" href="../publication/index.xml" type="application/rss+xml" title="Wajdi Aljedaani" />
     <title>Tools | Wajdi Aljedaani</title>
+    <link rel="stylesheet" href="../tool.css">
   </head>
   <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="3a079e7dad19be978a318345a7749d34">
+    <script>let images = ['tool1.jpg', 'sample_img2.jpg', 'sample_img3.jpeg']; // Add your image paths here
+      let currentIndex = 0;
+      
+      // Function to smoothly transition to the next image
+function nextImage() {
+  fadeOutImage(() => {
+    currentIndex = (currentIndex + 1) % images.length;
+    featuredImage.src = images[currentIndex];
+    fadeInImage();
+  });
+}
+
+// Function to smoothly transition to the previous image
+function prevImage() {
+  fadeOutImage(() => {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    featuredImage.src = images[currentIndex];
+    fadeInImage();
+  });
+}
+
+// Fade out the image before switching
+function fadeOutImage(callback) {
+  featuredImage.classList.add('hidden');
+  setTimeout(callback, 500); // Wait for the fade-out transition before changing the image
+}
+
+// Fade in the image after switching
+function fadeInImage() {
+  setTimeout(() => {
+    featuredImage.classList.remove('hidden');
+  }, 50); // Allow time for the fade-out effect to complete
+}</script>
     <script src="../js/wowchemy-init.min.7532de8e15162845d694f17af8b46a99.js"></script>
     <aside class="search-modal" id="search">
       <div class="container">
@@ -163,19 +197,20 @@
         <div class="row align-items-center">
           <div class="col-6">
               <div class="row">
+                <div class="con-title">Authors:</div>
                 <div class="col-6 col-sm-auto">
                   <div class="people-person">
-                      <img style="width: 85px; height: 85px;" loading="lazy" class="avatar avatar-circle" src="../../authors/admin/avatar.jpg" alt="Avatar" title="Uday Kiran Chimpri">
+                      <img style="width: 80px; height: 80px;" loading="lazy" class="avatar avatar-circle" src="../../authors/admin/avatar.jpg" alt="Avatar" title="wajdi Aljedaani">
                   </div>
               </div>
                   <div class="col-6 col-sm-auto">
                       <div class="people-person">
-                          <img style="width: 85px; height: 85px;" loading="lazy" class="avatar avatar-circle" src="../../authors/grad/udaykiranchimpri/udaykiranchimpri.jpg" alt="Avatar" title="Uday Kiran Chimpri">
+                          <img style="width: 80px; height: 80px;" loading="lazy" class="avatar avatar-circle" src="../../authors/grad/udaykiranchimpri/udaykiranchimpri.jpg" alt="Avatar" title="Uday Kiran Chimpri">
                       </div>
                   </div>
                   <div class="col-6 col-sm-auto">
                       <div class="people-person">
-                          <img style="width: 85px; height: 85px;" loading="lazy" class="avatar avatar-circle" src="../../authors/grad/durgasantoshgaddam/durgasantoshgaddam.JPG" alt="Avatar" title="Durga Santosh Gaddam">
+                          <img style="width: 80px; height: 80px;" loading="lazy" class="avatar avatar-circle" src="../../authors/grad/durgasantoshgaddam/durgasantoshgaddam.JPG" alt="Avatar" title="Durga Santosh Gaddam">
                       </div>
                   </div>
               </div>
@@ -213,15 +248,19 @@
       
         
 
-            <p style="text-align: justify;">Online data visualizations are commonly used on the web to effectively communicate large volumes of data. Additionally, visualizations assist users in extracting information efficiently, helping people make informed life decisions concerning their health, finances, and activities. </p>
+            <p style="text-align: justify;margin-top: 1rem; margin-bottom: .5rem;">Online data visualizations are commonly used on the web to effectively communicate large volumes of data. Additionally, visualizations assist users in extracting information efficiently, helping people make informed life decisions concerning their health, finances, and activities. </p>
 
-            <div class="universal-wrapper mt-5">
-                <img src="tool1.jpg" alt="Main Tools" class="img-fluid">
+            <div class="universal-wrapper img-div" style=position:relative>
+                   <!-- Left arrow button -->
+  <i class="fa-solid fa-arrow-left prev"onclick="prevImage()"></i>
+                <img src="tool1.jpg" alt="Main Tools" class="img-fluid" id="featuredImage">
+                  <!-- Right arrow button -->
+    <i class="fa-solid fa-arrow-right next" onclick="nextImage()"></i>
               </div>
               <h2>Description</h2>
               <p style="text-align: justify;">Recent work in politics, health, finance, and business analytics indicate the importance and wide adoption of online data visualizations. However, the essential visual nature of data visualizations inherently disenfranchises people who cannot see. These people include people who use screen readers to read the contents of their computer screens. In contrast, non-screen-reader users can explore data visualizations by rapidly interpreting visual patterns. Prior work has reported that alternative textual descriptions ("alt-text") for visualizations are often missing. In cases when alt-text is present, screen-reader users (SRUs) spend 211% more time and are 61% less accurate in extracting information than their non-screen reader user counterparts. Therefore, it is essential to find ways to make online data visualizations more accessible, efficient, and usable to screen-reader users (SRUs). Several prior works have attempted to improve the accessibility of online data visualizations, such as by auto-generating alt-text and enabling verbal information extraction. While these tools contribute to the accessibility of online visualizations, they either focus on simple graphs (e.g., single-series bar graphs) or the extraction of mainly high-level ("holistic") information, such as extrema and averages. Therefore, their granular ("drilled-down") interactions, such as extracting and comparing data points, especially with complex visualizations, remain unexplored.
               </p>
-              <div class="embed-responsive embed-responsive-16by9">
+              <div class="embed-responsive embed-responsive-16by9 img-div">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/O6CLudFxZEI?si=WvqC42IxiEOF7UsC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div class="media author-card content-widget-hr">

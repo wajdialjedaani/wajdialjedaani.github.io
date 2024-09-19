@@ -66,10 +66,44 @@
         "description": "An example talk using Wowchemy's Markdown slides feature."
       }
     </script>
+    <link rel="stylesheet" href="../talk.css">
     <title>Test smell detection tools, A systematic mapping study | Wajdi Aljedaani</title>
   </head>
   <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="a8edef490afe42206247b6ac05657af0">
     <script src="/js/wowchemy-init.min.7532de8e15162845d694f17af8b46a99.js"></script>
+    <script>let images = ['featured.jpg', 'sample_img2.jpg', 'sample_img3.jpeg']; // Add your image paths here
+      let currentIndex = 0;
+      
+      // Function to smoothly transition to the next image
+function nextImage() {
+  fadeOutImage(() => {
+    currentIndex = (currentIndex + 1) % images.length;
+    featuredImage.src = images[currentIndex];
+    fadeInImage();
+  });
+}
+
+// Function to smoothly transition to the previous image
+function prevImage() {
+  fadeOutImage(() => {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    featuredImage.src = images[currentIndex];
+    fadeInImage();
+  });
+}
+
+// Fade out the image before switching
+function fadeOutImage(callback) {
+  featuredImage.classList.add('hidden');
+  setTimeout(callback, 500); // Wait for the fade-out transition before changing the image
+}
+
+// Fade in the image after switching
+function fadeInImage() {
+  setTimeout(() => {
+    featuredImage.classList.remove('hidden');
+  }, 50); // Allow time for the fade-out effect to complete
+}</script>
     <aside class="search-modal" id="search">
       <div class="container">
         <section class="search-header">
@@ -197,7 +231,7 @@
         </nav>
       </header>
     </div>
-    <div class=page-body>
+    <div class=page-body >
         <div class=pub>
           <div class="article-container pt-3">
             <h2>Do the Test Smells Assertion Roulette and Eager Test Impact Students’ Troubleshooting and Debugging?</h2>
@@ -207,7 +241,14 @@
           </div>
           <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style=max-width:720px;max-height:514px>
             <div style=position:relative>
-              <img src=featured.jpg width=720 height=514 alt class=featured-image>
+              <!-- Left arrow button -->
+  <i class="fa-solid fa-arrow-left prev"onclick="prevImage()"></i>
+    
+    <!-- Image container -->
+    <img id="featuredImage" src="featured.jpg" width="720" height="514" alt="" class="featured-image">
+    
+    <!-- Right arrow button -->
+    <i class="fa-solid fa-arrow-right next" onclick="nextImage()"></i>
             </div>
           </div>
           <div class=article-container>
@@ -251,11 +292,13 @@
             <div class="d-md-none space-below"></div>
             <div class=space-below></div>
 
-            <div class=article-style>
+            <!-- PDF Viewer <div class=article-style>
               <div style="position: relative;">
                 <div style="position: absolute; z-index: 1; padding:11px; padding-right:80px; background-color:#444444; bottom:19px; right:160px; cursor: not-allowed;"></div>
-                <iframe id="pptFrame" width=595 height=485 frameborder=0 marginwidth=0 marginheight=0 scrolling=no style="border:1px solid #ccc;border-width:1px;margin-bottom:5px;max-width:100%"></iframe>
-              </iframe>
+                <iframe id="pptFrame" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" 
+                style="border:1px solid #ccc;border-width:1px;margin-bottom:5px;max-width:100%"
+                src="https://view.officeapps.live.com/op/embed.aspx?src=https://example.com/ICSE2023_SEET_Test_Smell_V5.pptx">
+        </iframe>
             </div>
               <div style=margin-bottom:5px>
                 <strong>
@@ -263,31 +306,18 @@
                 <strong>
                 </strong>
               </div>
+              
               <script>
                 function loadPresentation(filename) {
-                    var currentScriptPath = document.URL.replace(/\/[^/]+\/?$/, '/') + filename;
-                    var iframe = document.getElementById('pptFrame');
-                    iframe.setAttribute("src", "https://view.officeapps.live.com/op/embed.aspx?src=" + encodeURIComponent(currentScriptPath));
-                }
-        
-                window.onload = function() {
-                    loadPresentation("ICSE2023_SEET_Test_Smell_V5.pptx");
-                };
-            </script>
-              <!-- 
-  
-  <div class="alert alert-note"><div>
-      Click on the <strong>Slides</strong> button above to view the built-in slides feature.
-    </div></div>
-  
-  
-  Slides can be added in a few ways:
-  
-  - **Create** slides using Wowchemy's [_Slides_](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-  - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-  - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-  
-  Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. -->
+    var currentScriptPath = document.URL.replace(/\/[^/]+\/?$/, '/') + filename;
+    var iframe = document.getElementById('pptFrame');
+    iframe.setAttribute("src", "https://view.officeapps.live.com/op/embed.aspx?src=" + encodeURIComponent(currentScriptPath));
+}
+
+window.onload = function() {
+    loadPresentation("ICSE2023_SEET_Test_Smell_V5.pptx");
+};
+            </script>-->
             </div>
             <div class=share-box>
               <ul class=share>
@@ -314,11 +344,6 @@
                 <li>
                   <a href="whatsapp://send?text=Test+smell+detection+tools%2C+A+systematic+mapping+study%20https%3A%2F%2Fwadjialjedaani.netlify.app%2Fpublication-type%2Ftest-smell-detection-tools-a-systematic-mapping-study%2F" target=_blank rel=noopener class=share-btn-whatsapp aria-label=whatsapp>
                     <i class="fab fa-whatsapp"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fwadjialjedaani.netlify.app%2Fpublication-type%2Ftest-smell-detection-tools-a-systematic-mapping-study%2F&amp;title=Test+smell+detection+tools%2C+A+systematic+mapping+study" target=_blank rel=noopener class=share-btn-weibo aria-label=weibo>
-                    <i class="fab fa-weibo"></i>
                   </a>
                 </li>
               </ul>
