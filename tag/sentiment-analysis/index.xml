@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sentiment Analysis | Wajdi Aljedaani</title>
-    <link>https://example.com/tag/sentiment-analysis/</link>
-      <atom:link href="https://example.com/tag/sentiment-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://wajdialjedaani.com/tag/sentiment-analysis/</link>
+      <atom:link href="https://wajdialjedaani.com/tag/sentiment-analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>Sentiment Analysis</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu82aa433f936a5100743743c7f893db49_18798_512x512_fill_lanczos_center_3.png</url>
+      <url>https://wajdialjedaani.com/media/icon_hu82aa433f936a5100743743c7f893db49_18798_512x512_fill_lanczos_center_3.png</url>
       <title>Sentiment Analysis</title>
-      <link>https://example.com/tag/sentiment-analysis/</link>
+      <link>https://wajdialjedaani.com/tag/sentiment-analysis/</link>
     </image>
     
     <item>
       <title>Analyzing Accessibility Reviews Associated with Visual Disabilities or Eye Conditions</title>
-      <link>https://example.com/publication/paper4/</link>
+      <link>https://wajdialjedaani.com/publication/paper4/</link>
       <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper4/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper4/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -32,9 +32,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Automatically detecting and understanding the perception of COVID-19 vaccination: a middle east case study</title>
-      <link>https://example.com/publication/paper7/</link>
+      <link>https://wajdialjedaani.com/publication/paper7/</link>
       <pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper7/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper7/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -50,9 +50,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Sentiment analysis on Twitter data integrating TextBlob and deep learning models: The case of US airline industry</title>
-      <link>https://example.com/publication/paper9/</link>
+      <link>https://wajdialjedaani.com/publication/paper9/</link>
       <pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper9/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper9/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -68,9 +68,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Spam SMS filtering based on text features and supervised machine learning techniques</title>
-      <link>https://example.com/publication/paper8/</link>
+      <link>https://wajdialjedaani.com/publication/paper8/</link>
       <pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper8/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper8/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -86,9 +86,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Role of Artificial Intelligence for Analysis of COVID-19 Vaccination-Related Tweets: Opportunities, Challenges, and Future Trends</title>
-      <link>https://example.com/publication/paper12/</link>
+      <link>https://wajdialjedaani.com/publication/paper12/</link>
       <pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper12/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper12/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -104,9 +104,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Covid-19 vaccination-related sentiments analysis: a case study using worldwide twitter dataset</title>
-      <link>https://example.com/publication/paper17/</link>
+      <link>https://wajdialjedaani.com/publication/paper17/</link>
       <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper17/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper17/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -122,9 +122,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Detection of fake job postings by utilizing machine learning and natural language processing approaches</title>
-      <link>https://example.com/publication/paper14/</link>
+      <link>https://wajdialjedaani.com/publication/paper14/</link>
       <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper14/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper14/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -140,9 +140,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Racism detection by analyzing differential opinions through sentiment analysis of tweets using stacked ensemble gcr-nn model</title>
-      <link>https://example.com/publication/paper20/</link>
+      <link>https://wajdialjedaani.com/publication/paper20/</link>
       <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper20/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper20/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -158,9 +158,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Learning sentiment analysis for accessibility user reviews</title>
-      <link>https://example.com/publication/paper23/</link>
+      <link>https://wajdialjedaani.com/publication/paper23/</link>
       <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper23/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper23/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;

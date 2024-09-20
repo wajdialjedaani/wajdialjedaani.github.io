@@ -1,0 +1,60 @@
+{ "paper37" : {
+    "title": "Bug Test reports evolution in open source systems",
+    "authors": [
+      "Wajdi Aljedaani",
+      "Yasir Javed"
+    ],
+    "date": "January, 2018",
+    "links": {
+      "pdf": "https://www.researchgate.net/profile/Yasir-Javed-4/publication/324071770_Bug_Reports_Evolution_in_Open_Source_Systems/links/5ce6db69299bf14d95b51686/Bug-Reports-Evolution-in-Open-Source-Systems.pdf",
+      "cite": "../../publication/paper37/cite.bib",
+      "doi": "https://www.researchgate.net/profile/Yasir-Javed-4/publication/324071770_Bug_Reports_Evolution_in_Open_Source_Systems/links/5ce6db69299bf14d95b51686/Bug-Reports-Evolution-in-Open-Source-Systems.pdf"
+    },
+    "abstract": "Open Source Software communities usually utilize open bug reporting system to enable users to report and fix bugs. In addition, the lifetime of most open source system stays for long periods of time. In this work, we comprehensively examine the evolution of bug reports in four different open source systems from various languages. The selected project are analyzed since 2004 in order to find how many bugs are reported compared to their resolution. We report our results and some recommendations to the open source community.",
+    "type": "Conference paper",
+    "publication": "5th International Symposium on Data Mining Applications",
+    "tags": ["Bug Report", "Software Repository Mining"],
+    "authorInfo": {
+      "name": "Wajdi Aljedaani",
+      "title": "Human-Computer Interaction & SE Researcher",
+      "image": "../../../authors/admin/avatar_hu1183c294c0ce9bf5d76164e32815c3af_37174_270x270_fill_q75_lanczos_center.jpg",
+      "links": {
+        "email": "mailto:wajdi.j1@gmail.com",
+        "googleScholar": "https://scholar.google.com/citations?user=7nKDsRAAAAAJ",
+        "github": "https://github.com/wajdialjedaani",
+        "linkedin": "https://www.linkedin.com/in/wajdi-aljedaani",
+        "resume": "../../../uploads/resume.pdf"
+      }
+    }
+  },
+  "paper3" : {
+    "title": "Bug reports evolution in open source systems",
+    "authors": [
+      "Wajdi Aljedaani",
+      "Yasir Javed"
+    ],
+    "date": "January, 2018",
+    "links": {
+      "pdf": "https://www.researchgate.net/profile/Yasir-Javed-4/publication/324071770_Bug_Reports_Evolution_in_Open_Source_Systems/links/5ce6db69299bf14d95b51686/Bug-Reports-Evolution-in-Open-Source-Systems.pdf",
+      "cite": "../../publication/paper37/cite.bib",
+      "doi": "https://www.researchgate.net/profile/Yasir-Javed-4/publication/324071770_Bug_Reports_Evolution_in_Open_Source_Systems/links/5ce6db69299bf14d95b51686/Bug-Reports-Evolution-in-Open-Source-Systems.pdf"
+    },
+    "abstract": "Test sually utilize open bug reporting system to enable users to report and fix bugs. In addition, the lifetime of most open source system stays for long periods of time. In this work, we comprehensively examine the evolution of bug reports in four different open source systems from various languages. The selected project are analyzed since 2004 in order to find how many bugs are reported compared to their resolution. We report our results and some recommendations to the open source community.",
+    "type": "Conference paper",
+    "publication": "5th International Symposium on Data Mining Applications",
+    "tags": ["Bug Report", "Software Repository Mining"],
+    "authorInfo": {
+      "name": "Wajdi Aljedaani",
+      "title": "Human-Computer Interaction & SE Researcher",
+      "image": "../../../authors/admin/avatar_hu1183c294c0ce9bf5d76164e32815c3af_37174_270x270_fill_q75_lanczos_center.jpg",
+      "links": {
+        "email": "mailto:wajdi.j1@gmail.com",
+        "googleScholar": "https://scholar.google.com/citations?user=7nKDsRAAAAAJ",
+        "github": "https://github.com/wajdialjedaani",
+        "linkedin": "https://www.linkedin.com/in/wajdi-aljedaani",
+        "resume": "../../../uploads/resume.pdf"
+      }
+    }
+  }
+}
+  

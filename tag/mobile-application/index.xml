@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mobile Application | Wajdi Aljedaani</title>
-    <link>https://example.com/tag/mobile-application/</link>
-      <atom:link href="https://example.com/tag/mobile-application/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://wajdialjedaani.com/tag/mobile-application/</link>
+      <atom:link href="https://wajdialjedaani.com/tag/mobile-application/index.xml" rel="self" type="application/rss+xml" />
     <description>Mobile Application</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Sep 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu82aa433f936a5100743743c7f893db49_18798_512x512_fill_lanczos_center_3.png</url>
+      <url>https://wajdialjedaani.com/media/icon_hu82aa433f936a5100743743c7f893db49_18798_512x512_fill_lanczos_center_3.png</url>
       <title>Mobile Application</title>
-      <link>https://example.com/tag/mobile-application/</link>
+      <link>https://wajdialjedaani.com/tag/mobile-application/</link>
     </image>
     
     <item>
       <title>On the identification of accessibility bug reports in open source systems</title>
-      <link>https://example.com/publication/paper16/</link>
+      <link>https://wajdialjedaani.com/publication/paper16/</link>
       <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper16/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper16/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -32,9 +32,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Finding the needle in a haystack: On the automatic identification of accessibility user reviews</title>
-      <link>https://example.com/publication/paper28/</link>
+      <link>https://wajdialjedaani.com/publication/paper28/</link>
       <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper28/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper28/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -50,9 +50,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>A comparison of bugs across the ios and android platforms of two open source cross platform browser apps</title>
-      <link>https://example.com/publication/paper36/</link>
+      <link>https://wajdialjedaani.com/publication/paper36/</link>
       <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper36/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper36/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;

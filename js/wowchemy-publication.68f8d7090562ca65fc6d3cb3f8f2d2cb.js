@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
         e.preventDefault();
         let t = $(this).attr("data-filename")
           , i = $("#modal");
-        i.find(".modal-body code").load(t, function(o, u, n) {
+        i.find(".modal-body p").load(t, function(o, u, n) {
             if (u == "error") {
                 let s = "Error: ";
                 $("#modal-error").html(s + n.status + " " + n.statusText)
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }),
     $(".js-copy-cite").click(function(e) {
         e.preventDefault();
-        let t = document.querySelector("#modal .modal-body code").innerHTML;
+        let t = document.querySelector("#modal .modal-body p").innerHTML;
         navigator.clipboard.writeText(t).then(function() {
             console.debug("Citation copied!")
         }).catch(function() {

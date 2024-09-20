@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 | Wajdi Aljedaani</title>
-    <link>https://example.com/publication-type/2/</link>
-      <atom:link href="https://example.com/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://wajdialjedaani.com/publication-type/2/</link>
+      <atom:link href="https://wajdialjedaani.com/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 17 Feb 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu82aa433f936a5100743743c7f893db49_18798_512x512_fill_lanczos_center_3.png</url>
+      <url>https://wajdialjedaani.com/media/icon_hu82aa433f936a5100743743c7f893db49_18798_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
-      <link>https://example.com/publication-type/2/</link>
+      <link>https://wajdialjedaani.com/publication-type/2/</link>
     </image>
     
     <item>
       <title>Dynamic Software Containers Workload Balancing Via Many-Objective Search</title>
-      <link>https://example.com/publication/paper5/</link>
+      <link>https://wajdialjedaani.com/publication/paper5/</link>
       <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper5/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper5/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -32,9 +32,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>A novel framework for remote management of social media big data analytics</title>
-      <link>https://example.com/publication/paper6/</link>
+      <link>https://wajdialjedaani.com/publication/paper6/</link>
       <pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper6/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper6/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -50,9 +50,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Automatically detecting and understanding the perception of COVID-19 vaccination: a middle east case study</title>
-      <link>https://example.com/publication/paper7/</link>
+      <link>https://wajdialjedaani.com/publication/paper7/</link>
       <pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper7/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper7/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -68,9 +68,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Electroencephalogram Signals for Detecting Confused Students in Online Education Platforms with Probability-Based Features</title>
-      <link>https://example.com/publication/paper10/</link>
+      <link>https://wajdialjedaani.com/publication/paper10/</link>
       <pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper10/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper10/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -86,9 +86,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Sentiment analysis on Twitter data integrating TextBlob and deep learning models: The case of US airline industry</title>
-      <link>https://example.com/publication/paper9/</link>
+      <link>https://wajdialjedaani.com/publication/paper9/</link>
       <pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper9/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper9/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -104,9 +104,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Spam SMS filtering based on text features and supervised machine learning techniques</title>
-      <link>https://example.com/publication/paper8/</link>
+      <link>https://wajdialjedaani.com/publication/paper8/</link>
       <pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper8/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper8/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -122,9 +122,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Role of Artificial Intelligence for Analysis of COVID-19 Vaccination-Related Tweets: Opportunities, Challenges, and Future Trends</title>
-      <link>https://example.com/publication/paper12/</link>
+      <link>https://wajdialjedaani.com/publication/paper12/</link>
       <pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper12/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper12/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -140,9 +140,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Blood cancer prediction using leukemia microarray gene data and hybrid logistic vector trees model</title>
-      <link>https://example.com/publication/paper18/</link>
+      <link>https://wajdialjedaani.com/publication/paper18/</link>
       <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper18/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper18/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -158,9 +158,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Covid-19 vaccination-related sentiments analysis: a case study using worldwide twitter dataset</title>
-      <link>https://example.com/publication/paper17/</link>
+      <link>https://wajdialjedaani.com/publication/paper17/</link>
       <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper17/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper17/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -176,9 +176,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Detection of fake job postings by utilizing machine learning and natural language processing approaches</title>
-      <link>https://example.com/publication/paper14/</link>
+      <link>https://wajdialjedaani.com/publication/paper14/</link>
       <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper14/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper14/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -194,9 +194,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>If online learning works for you, what about deaf students? Emerging challenges of online learning for deaf and hearing-impaired students during COVID-19: a literature review</title>
-      <link>https://example.com/publication/paper13/</link>
+      <link>https://wajdialjedaani.com/publication/paper13/</link>
       <pubDate>Mon, 05 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper13/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper13/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -212,9 +212,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Predicting pulsars from imbalanced dataset with hybrid resampling approach</title>
-      <link>https://example.com/publication/paper22/</link>
+      <link>https://wajdialjedaani.com/publication/paper22/</link>
       <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper22/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper22/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -230,9 +230,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Racism detection by analyzing differential opinions through sentiment analysis of tweets using stacked ensemble gcr-nn model</title>
-      <link>https://example.com/publication/paper20/</link>
+      <link>https://wajdialjedaani.com/publication/paper20/</link>
       <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper20/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper20/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -248,9 +248,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Vector mosquito image classification using novel RIFS feature selection and machine learning models for disease epidemiology</title>
-      <link>https://example.com/publication/paper19/</link>
+      <link>https://wajdialjedaani.com/publication/paper19/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper19/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper19/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -266,9 +266,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>I cannot see you—the perspectives of deaf students to online learning during covid-19 pandemic: Saudi arabia case study</title>
-      <link>https://example.com/publication/paper24/</link>
+      <link>https://wajdialjedaani.com/publication/paper24/</link>
       <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper24/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper24/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -284,9 +284,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>On the classification of bug reports to improve bug localization</title>
-      <link>https://example.com/publication/paper25/</link>
+      <link>https://wajdialjedaani.com/publication/paper25/</link>
       <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper25/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper25/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -302,9 +302,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Recommending pull request reviewers based on code changes</title>
-      <link>https://example.com/publication/paper29/</link>
+      <link>https://wajdialjedaani.com/publication/paper29/</link>
       <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper29/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper29/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -320,9 +320,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Research Article Predicting Pulsars from Imbalanced Dataset with Hybrid Resampling Approach</title>
-      <link>https://example.com/publication/paper30/</link>
+      <link>https://wajdialjedaani.com/publication/paper30/</link>
       <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper30/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper30/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -338,9 +338,9 @@ Supplementary notes can be added here, including [code, math, and images](https:
     
     <item>
       <title>Learning to rank developers for bug report assignment</title>
-      <link>https://example.com/publication/paper31/</link>
+      <link>https://wajdialjedaani.com/publication/paper31/</link>
       <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/paper31/</guid>
+      <guid>https://wajdialjedaani.com/publication/paper31/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;

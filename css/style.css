@@ -1,0 +1,56 @@
+    /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+:root {
+    --heading-color: #3f51b5; /* Color for light mode */
+    --thesis-color: #007bff;
+    --accomplish-color: #007bff;
+}
+
+body.dark {
+    --heading-color: #00ffff; /* Color for dark mode */
+    --thesis-color: #f8f8f2;
+    --accomplish-color: #f8f8f2;
+}
+
+.research-heading {
+    color: var(--heading-color) !important;
+    font-size: smaller;
+}
+
+
+.thesis{
+  color: var(--thesis-color);
+   font-size:0.9rem;
+}
+
+.accomplishments{
+  font-size: 0.85rem; 
+  color: var(--accomplish-color);
+}
+  
+.dark a, .dark h3.article-title a:hover {
+  color: #00ffff;
+}
+
+.dark a:hover,.dark a:focus {
+  color: #00ffff;
+}

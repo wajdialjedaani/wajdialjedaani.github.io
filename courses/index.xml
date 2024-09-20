@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Courses | Wajdi Aljedaani</title>
-    <link>https://example.com/courses/</link>
-      <atom:link href="https://example.com/courses/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://wajdialjedaani.com/courses/</link>
+      <atom:link href="https://wajdialjedaani.com/courses/index.xml" rel="self" type="application/rss+xml" />
     <description>Courses</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu82aa433f936a5100743743c7f893db49_18798_512x512_fill_lanczos_center_3.png</url>
+      <url>https://wajdialjedaani.com/media/icon_hu82aa433f936a5100743743c7f893db49_18798_512x512_fill_lanczos_center_3.png</url>
       <title>Courses</title>
-      <link>https://example.com/courses/</link>
+      <link>https://wajdialjedaani.com/courses/</link>
     </image>
     
     <item>
       <title>CSCE 4901 - Software Development Capstone I</title>
-      <link>https://example.com/courses/example/</link>
+      <link>https://wajdialjedaani.com/courses/example/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/example/</guid>
+      <guid>https://wajdialjedaani.com/courses/example/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -39,9 +39,9 @@ Undergraduate (final year) --&gt;
     
     <item>
       <title>CSCE 3444 - Software Engineering</title>
-      <link>https://example.com/courses/course2/</link>
+      <link>https://wajdialjedaani.com/courses/course2/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/course2/</guid>
+      <guid>https://wajdialjedaani.com/courses/course2/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -68,9 +68,9 @@ Undergraduate (final year) --&gt;
     
     <item>
       <title>ICMT 121 - Computer Assembly and Operating</title>
-      <link>https://example.com/courses/course4/</link>
+      <link>https://wajdialjedaani.com/courses/course4/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/course4/</guid>
+      <guid>https://wajdialjedaani.com/courses/course4/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -96,9 +96,9 @@ Undergraduate (final year) --&gt;
     
     <item>
       <title>IPRG 111 - Fundamentals of Computer Programming</title>
-      <link>https://example.com/courses/course3/</link>
+      <link>https://wajdialjedaani.com/courses/course3/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/course3/</guid>
+      <guid>https://wajdialjedaani.com/courses/course3/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -125,9 +125,9 @@ Undergraduate (final year) --&gt;
     
     <item>
       <title>ISUP 295 - Project</title>
-      <link>https://example.com/courses/course5/</link>
+      <link>https://wajdialjedaani.com/courses/course5/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/course5/</guid>
+      <guid>https://wajdialjedaani.com/courses/course5/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
